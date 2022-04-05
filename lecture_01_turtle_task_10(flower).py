@@ -12,9 +12,8 @@ angle = 360/petals_number #identifying angle
 
 for pair in range(petals_pair):
   
-    turtle.circle(80)
-    turtle.right(180)
-    turtle.circle(80)
+    turtle.circle(80) # making 1st petal(circle)
+    turtle.circle(-80) # making symmetrical petal(circle)
     turtle.right(angle)
 
 # Prevent window from closing
