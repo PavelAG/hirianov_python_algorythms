@@ -1,5 +1,5 @@
 """ 
-Find a hyptenuse, when two other two sides are given.
+Find a hypotenuse when two other two sides are given.
 """
 leg1, leg2 = 179, 197
 
